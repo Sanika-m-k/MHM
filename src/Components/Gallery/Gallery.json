@@ -1,0 +1,110 @@
+{
+    "Ganeshotsav": [
+        {"id":"1","src": "Gallery/GaneshUtsav/1.jpg", "alt": "Image 1"},
+        {"id":"2","src": "Gallery/GaneshUtsav/2.jpg", "alt": "Image 1"},
+        {"id":"3","src": "Gallery/GaneshUtsav/3.jpg", "alt": "Image 1"},
+        {"id":"4","src": "Gallery/GaneshUtsav/4.jpg", "alt": "Image 1"},
+        {"id":"5","src": "Gallery/GaneshUtsav/5.jpg", "alt": "Image 1"},
+        {"id":"6","src": "Gallery/GaneshUtsav/6.jpg", "alt": "Image 1"},
+        {"id":"7","src": "Gallery/GaneshUtsav/7.jpg", "alt": "Image 1"},
+        {"id":"8","src": "Gallery/GaneshUtsav/8.jpg", "alt": "Image 1"},
+        {"id":"9","src": "Gallery/GaneshUtsav/9.jpg", "alt": "Image 1"},
+        {"id":"10","src": "Gallery/GaneshUtsav/10.jpg", "alt": "Image 1"},
+        {"id":"11","src": "Gallery/GaneshUtsav/11.jpg", "alt": "Image 1"},
+        {"id":"12","src": "Gallery/GaneshUtsav/12.jpg", "alt": "Image 1"},
+        {"id":"13","src": "Gallery/GaneshUtsav/13.jpg", "alt": "Image 1"},
+        {"id":"14","src": "Gallery/GaneshUtsav/14.jpg", "alt": "Image 1"},
+        {"id":"15","src": "Gallery/GaneshUtsav/15.jpg", "alt": "Image 1"},
+        {"id":"16","src": "Gallery/GaneshUtsav/16.jpg", "alt": "Image 1"}
+    ],
+    "Aarambh": [
+      {"id":"1","src": "Gallery/Aarambh/1.webp", "alt": "Image 1"},
+      {"id":"2","src": "Gallery/Aarambh/2.webp", "alt": "Image 1"},
+      {"id":"3","src": "Gallery/Aarambh/3.jpg", "alt": "Image 1"},
+      {"id":"4","src": "Gallery/Aarambh/4.webp", "alt": "Image 1"},
+      {"id":"5","src": "Gallery/Aarambh/5.webp", "alt": "Image 1"},
+      {"id":"6","src": "Gallery/Aarambh/6.webp", "alt": "Image 1"},
+      {"id":"7","src": "Gallery/Aarambh/7.webp", "alt": "Image 1"},
+      {"id":"8","src": "Gallery/Aarambh/8.webp", "alt": "Image 1"},
+      {"id":"9","src": "Gallery/Aarambh/9.webp", "alt": "Image 1"},
+      {"id":"10","src": "Gallery/Aarambh/10.webp", "alt": "Image 1"},
+      {"id":"11","src": "Gallery/Aarambh/11.webp", "alt": "Image 1"},
+      {"id":"12","src": "Gallery/Aarambh/12.jpg", "alt": "Image 1"},
+      {"id":"13","src": "Gallery/Aarambh/13.jpg", "alt": "Image 1"},
+      {"id":"14","src": "Gallery/Aarambh/14.jpg", "alt": "Image 1"},
+      {"id":"15","src": "Gallery/Aarambh/15.webp", "alt": "Image 1"},
+      {"id":"16","src": "Gallery/Aarambh/16.webp", "alt": "Image 1"}
+      
+    ],
+    "Bharari":[
+        {"id":"1","src": "Gallery/Bharari/1.jpg", "alt": "Image 1"},
+        {"id":"2","src": "Gallery/Bharari/2.jpg", "alt": "Image 1"},
+        {"id":"3","src": "Gallery/Bharari/3.jpg", "alt": "Image 1"},
+        {"id":"4","src": "Gallery/Bharari/4.jpg", "alt": "Image 1"},
+        {"id":"5","src": "Gallery/Bharari/5.jpg", "alt": "Image 1"},
+        {"id":"6","src": "Gallery/Bharari/6.jpg", "alt": "Image 1"},
+        {"id":"7","src": "Gallery/Bharari/7.jpg", "alt": "Image 1"},
+        {"id":"8","src": "Gallery/Bharari/8.jpg", "alt": "Image 1"},
+        {"id":"9","src": "Gallery/Bharari/9.jpg", "alt": "Image 1"},
+        {"id":"10","src": "Gallery/Bharari/10.jpg", "alt": "Image 1"},
+        {"id":"11","src": "Gallery/Bharari/11.jpg", "alt": "Image 1"},
+        {"id":"12","src": "Gallery/Bharari/12.jpg", "alt": "Image 1"}
+    ],
+    "Shiv Jayanti":[
+        {"id":"1","src": "Gallery/Shivjayanti/1.jpg", "alt": "Image 1"},
+        {"id":"2","src": "Gallery/Shivjayanti/2.jpg", "alt": "Image 1"},
+        {"id":"3","src": "Gallery/Shivjayanti/3.jpg", "alt": "Image 1"},
+        {"id":"4","src": "Gallery/Shivjayanti/4.jpg", "alt": "Image 1"},
+        {"id":"5","src": "Gallery/Shivjayanti/5.jpg", "alt": "Image 1"},
+        {"id":"6","src": "Gallery/Shivjayanti/6.jpg", "alt": "Image 1"},
+        {"id":"7","src": "Gallery/Shivjayanti/7.jpg", "alt": "Image 1"},
+        {"id":"8","src": "Gallery/Shivjayanti/8.jpg", "alt": "Image 1"},
+        {"id":"9","src": "Gallery/Shivjayanti/9.jpg", "alt": "Image 1"},
+        {"id":"10","src": "Gallery/Shivjayanti/10.jpg", "alt": "Image 1"},
+        {"id":"11","src": "Gallery/Shivjayanti/11.jpg", "alt": "Image 1"},
+        {"id":"12","src": "Gallery/Shivjayanti/12.jpg", "alt": "Image 1"},
+        {"id":"13","src": "Gallery/Shivjayanti/13.jpg", "alt": "Image 1"}
+    ],
+    "Misal Pav Party":[
+        {"id":"1","src": "Gallery/Trip/1.jpg", "alt": "Image 1"},
+        {"id":"2","src": "Gallery/Trip/2.jpg", "alt": "Image 1"},
+        {"id":"3","src": "Gallery/Trip/3.jpg", "alt": "Image 1"},
+        {"id":"4","src": "Gallery/Trip/4.jpg", "alt": "Image 1"},
+        {"id":"5","src": "Gallery/Trip/5.jpg", "alt": "Image 1"},
+        {"id":"6","src": "Gallery/Trip/6.jpg", "alt": "Image 1"},
+        {"id":"7","src": "Gallery/Trip/7.jpg", "alt": "Image 1"},
+        {"id":"8","src": "Gallery/Trip/8.jpg", "alt": "Image 1"},
+        {"id":"9","src": "Gallery/Trip/9.jpg", "alt": "Image 1"},
+        {"id":"10","src": "Gallery/Trip/10.jpg", "alt": "Image 1"},
+        {"id":"11","src": "Gallery/Trip/11.jpg", "alt": "Image 1"},
+        {"id":"12","src": "Gallery/Trip/12.jpg", "alt": "Image 1"}
+    ],
+    "General":[
+        {"id":"1","src": "Gallery/Trip/1.jpg", "alt": "Image 1"},
+        {"id":"2","src": "Gallery/Trip/2.jpg", "alt": "Image 1"},
+        {"id":"3","src": "Gallery/Trip/3.jpg", "alt": "Image 1"},
+        {"id":"4","src": "Gallery/Trip/4.jpg", "alt": "Image 1"},
+        {"id":"5","src": "Gallery/Trip/5.jpg", "alt": "Image 1"},
+        {"id":"6","src": "Gallery/Trip/6.jpg", "alt": "Image 1"},
+        {"id":"7","src": "Gallery/Trip/7.jpg", "alt": "Image 1"},
+        {"id":"8","src": "Gallery/Trip/8.jpg", "alt": "Image 1"},
+        {"id":"9","src": "Gallery/Trip/9.jpg", "alt": "Image 1"},
+        {"id":"10","src": "Gallery/Trip/10.jpg", "alt": "Image 1"},
+        {"id":"11","src": "Gallery/Trip/11.jpg", "alt": "Image 1"},
+        {"id":"12","src": "Gallery/Trip/12.jpg", "alt": "Image 1"},
+        {"id":"","src": "event.jpg", "alt": "Image 1"},
+        {"id":"","src": "event.jpg", "alt": "Image 2"},
+        {"id":"","src": "event.jpg", "alt": "Image 3"},
+        {"id":"","src": "event.jpg", "alt": "Image 4"}
+    ],
+    "Food Fest":[
+        {"id":"","src": "event.jpg", "alt": "Image 1"},
+        {"id":"","src": "event.jpg", "alt": "Image 2"},
+        {"id":"","src": "event.jpg", "alt": "Image 3"},
+        {"id":"","src": "event.jpg", "alt": "Image 4"}
+    ]
+  }
+
+
+  
+  

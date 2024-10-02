@@ -1,0 +1,118 @@
+/* Styling for the event-container */
+.main{
+    display:flex ;
+    flex-direction: column;
+    padding-bottom: 4rem ;
+}
+
+.event-container {
+    width: 45%; /* Two containers side by side */
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column; /* Allow vertical alignment of elements */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Hover effect */
+.event-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Event image styling */
+.event-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    aspect-ratio: 16/9; /* Set desired aspect ratio, adjust as needed */
+    object-fit: cover; /* Cover to fill space */
+    transition: filter 0.5s ease;
+    margin-top: 0; /* Remove margin-top to align with the top */
+}
+
+/* Event details that will appear on hover */
+.event-details {
+    margin-top: 0; /* Remove margin-top */
+    position: absolute;
+    top: 0; /* Aligns with the top of the image */
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    transition: opacity 0.5s ease;
+    padding-bottom: 4rem;
+}
+
+.event-details h2{
+    margin-bottom: 2rem;
+}
+
+/* Hover effect: image blur and details fade in */
+.event-container:hover .event-image {
+    filter: blur(5px);
+}
+
+.event-container:hover .event-details {
+    opacity: 1;
+}
+
+/* Event name styling */
+.event-name {
+    background-color: #BF2E01;
+    padding: 10px;
+    border: #ffffff6e solid 2px;
+    border-radius: 0px 15px 0px 15px;
+    position: absolute;
+    bottom: 0;
+
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: #BF2E01;
+    font-weight: 800;
+    z-index: 10; /* Keep event name above the blur effect */
+    text-align: center;
+}
+
+/* View Images Button */
+.view-images-btn {
+    position: absolute;
+    background-color: rgba(255, 87, 34, 0.3);
+    color: rgb(0, 0, 0);
+    border: #BF2E01 solid 2px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 10;
+    text-decoration: none; /* Ensures it's clickable as a link */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transform: translateX(-50%);
+    margin-bottom: 2rem;
+}
+
+.view-images-btn:hover {
+    background-color: #e64a19;
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 768px) {
+    .event-container {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .event-image {
+        height: auto; /* Maintain aspect ratio */
+    }
+}

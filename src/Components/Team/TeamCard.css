@@ -1,0 +1,83 @@
+.member-card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25% 25% 5% 5%;
+    border: 2px solid #BF2E01;
+    box-shadow: inset 0 0 10px #ed633a, 0 4px 15px #00000033; /* Inner shadow with orange color */
+
+    padding:10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+    margin-top: 80px;
+  }
+  
+  .member-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+
+  }
+  
+  .image-container {
+    width: 200px;
+    
+    margin: auto;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 25% 25% 25% 0%;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -80px; /* Negative margin to move the card upwards */
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .member-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .image-container:hover .member-image {
+    transform: scale(1.1);
+  }
+  
+  .member-name {
+    font-size: 1.5rem;
+    color: #66260D;  }
+  
+  .member-role {
+    font-size: 1.1rem;
+    color: #000000;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: black;
+    font-size: 1.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #465a64; /* LinkedIn color */
+    transform: scale(1.2);
+  }
+  
+  .social-icons a:nth-child(1):hover {
+    color: #465a64; /* Instagram color */
+    box-shadow: #000000;
+  }
+  
+  .social-icons a:nth-child(2):hover {
+    color: #465a64; /* Facebook color */
+    
+  }
+  
+  .social-icons a:nth-child(3):hover {
+    color: #465a64; /* LinkedIn color */
+  }
+  

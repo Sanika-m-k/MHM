@@ -1,0 +1,114 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.Home {
+  background: url('/public/Gallery/Images/bg1.jpg');
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.h-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  padding: 0 ;
+  overflow: hidden;
+}
+
+.logodiv{
+  display: flex;
+  justify-content: center;
+}
+.carousel-container {
+  width: 300px;
+}
+
+.carousel-container img {
+  width: 100%;
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  padding-top: 2rem;
+  color: #66260d;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  text-shadow:
+    1px 1px 1px rgba(102, 38, 13, 0.2),
+    1px 1px 1px rgba(102, 38, 13, 0.2),
+    1px 1px 1px rgba(102, 38, 13, 0.2);
+  font-size: 2.5rem;
+  color: #66260D;
+  text-decoration: none;
+  font-family:'popins';
+  font-size: 2.5rem;
+  
+}
+
+.title p {
+  margin-bottom: 0 !important;
+}
+
+.nextpart{
+  background: linear-gradient(270deg,#BF2E01 0%,#E6C87E 5% ,#E6C87E 95% ,#BF2E01 100%);
+}
+
+/* Responsive Styling for screens below 510px */
+@media (max-width: 510px) {
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .Home {
+    background: url('/public/Gallery/Images/bg1.jpg');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  .h-container {
+    position: relative;
+  }
+
+  .center-logo {
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+  }
+
+  /* Adjust logo size */
+  .h-container {
+
+    align-items: center; /* Center items vertically */
+    height: 100vh;
+    padding: 0;
+    position: relative; /* Ensure relative positioning for absolute children */
+  }
+  
+  .circle {
+    position: absolute; /* Make it relative to allow for absolute positioning of children */
+    z-index: 1; /* Ensure it appears above the background */
+right:62%;
+top: 23%;
+  }
+  
+  .logodiv {
+    position: relative; /* Make the logo relative */
+    z-index: 0; /* Ensure it is below the carousel */
+  }
+  
+}

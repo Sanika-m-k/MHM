@@ -1,0 +1,20 @@
+.circle-container {
+    position: relative;
+    height: 400px;
+    margin: auto;
+    border-radius: 50%; /* Makes the container circular */
+  }
+  
+  .circle-img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 50%; /* Center the images vertically */
+    left: 50%; /* Center the images horizontally */
+    transform-origin: 0 0; /* Set the transform origin to the center of the container */
+  }
+  
+  /* Optional: You can add a border for better visibility of the circular layout */
+
+  

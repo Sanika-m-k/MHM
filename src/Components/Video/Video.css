@@ -1,0 +1,73 @@
+
+.main{
+  display: flex;
+  justify-content: center; /* Center the .video-container horizontally */
+  align-items: center;
+  width: 100%; /* Take full width of the parent */
+}
+
+.video-container {
+  position: relative;
+  margin: 10px ;
+  background-color: #f9f9f9;
+  border: 2px solid #66260D; /* Stylish border */
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  display: inline-block; /* Adjust width based on content (video size) */
+}
+
+.video-wrapper {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-element {
+  display: block;
+  max-width: 100%;
+  max-height: 500px; /* Maximum height is still 600px */
+  width: auto; /* Allow video to adjust its width according to its aspect ratio */
+  height: auto; /* Keep the video aspect ratio */
+}
+
+.video-controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between buttons */
+}
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background behind icons */
+  border-radius: 50%; /* Circle around the icon */
+  padding: 20px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.control-icon {
+  color: white;
+  font-size: 40px;
+}
+
+.video-overlay:hover {
+  opacity: 0.8;
+}
+
+.play-icon {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.stop-icon {
+  padding: 10px;
+  border-radius: 50%;
+}

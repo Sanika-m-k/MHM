@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/public/Font/fourth_reign/FourthReignPERSONALUSEONLY-Border.otf') format('otf'),
+         url('/public/Font/fourth_reign/FourthReignPERSONALUSEONLY-BorderDiamond.otf') format('otf');
+    /* font-weight: normal;
+    font-style: normal; */
+  }
+  
+.Team{
+    padding: 5rem 1rem;
+    background: linear-gradient(270deg,#BF2E01 0%,#E6C87E 20% ,#E6C87E 80% ,#BF2E01 100%);
+
+    & h1{
+        text-align: center;
+    }
+    & h2{
+        width: 90%;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        padding-bottom: .5rem;
+        border-bottom: 2px solid black;
+        margin-top: 2rem;
+        padding-left: 1rem;
+    }
+}
+.t-screen{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    place-items: center;
+}
+.t-card{
+    /* border: 1px solid black; */
+    border-radius: 13px;
+    width: 14rem;
+    background-color: rgb(242 220 173);
+    border: 10px solid transparent; /* Set border width */
+    border-image: url('/public/Gallery/Images/bg4.png') 30 round; 
+}
+.t-img{
+    display: flex;
+}
+.t-img img{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+}
+.t-info{
+    text-align: center;
+    & h3{
+        font-family: MyCustomFont;
+
+    }
+    & p{
+        font-family: Lora;
+        font-weight: 500;
+        font-size: 17px;
+    }
+}
+.t-media{
+    display:flex;
+    justify-content: space-evenly;
+    padding: .5rem 0;
+    & a{
+        transition: .2s;
+        background-color: antiquewhite;
+        padding: 5px;
+        height: 34px;
+        width: 34px;
+        border-radius: 50%;
+        &:hover{
+            color: rgb(136, 29, 237);
+            background-color: rgb(226, 203, 174);
+        }
+    }
+}
