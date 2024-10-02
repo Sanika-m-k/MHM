@@ -23,7 +23,7 @@ const EventCard = (props) => {
 	
 
 </div>
-<div className='btn'><a href={`/${props.name}`}class="view-images-btn">View Images</a></div>
+<div className='btn'><a href={`/photos?event=${props.name}`}class="view-images-btn">View Images</a></div>
 
     </div>
   )
