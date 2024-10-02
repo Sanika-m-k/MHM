@@ -7,10 +7,8 @@ import Footer from '../Footer';
 import Navbar from '../Navbar';
 import { useSwipeable } from 'react-swipeable'; // Correct import
 
-const PhotoScreen = () => {
-  const { search } = useLocation();
-  const params = new URLSearchParams(search);
-  const eventName = params.get('event');
+const PhotoScreen = (eventName) => {
+  
   
   const imagedata = data[eventName];
   

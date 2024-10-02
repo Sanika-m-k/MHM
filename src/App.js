@@ -21,7 +21,13 @@ const App = () => {
         <Route path="/events" element={<Event/>} />
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/team" element={<Team/>} />
-        <Route path='/photos' element={<PhotoScreen/>} />
+        <Route path='/bharari' element={<PhotoScreen eventName="Bharari"/>} />
+        <Route path='/aarambh' element={<PhotoScreen eventName="Aarambh"/>} />
+        <Route path='/misal%20pav%20party' element={<PhotoScreen eventName="Misal Pav Party"/>} />
+        <Route path='/Shiv%20Jayanti' element={<PhotoScreen eventName="Shiv Jayanti"/>} />
+        <Route path='/food%20fest' element={<PhotoScreen eventName="Food Fest"/>} />
+        <Route path='/ganeshotstav' element={<PhotoScreen eventName="Ganeshotsav"/>} />
+
       </Routes>
     </Router>
   );
